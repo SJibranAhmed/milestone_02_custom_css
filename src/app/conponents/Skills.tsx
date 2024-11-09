@@ -9,7 +9,7 @@ const Skills = () => {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br /> Alias cupiditate doloribus nostrum quidem earum et nihil excepturi dolorum sequi id.
           </p><br /><br />
 
-          <div>
+          <div className={styles.main}>
             <div className={styles.langContainer}>
               <div className={styles.items}>
                 <h2>Next.js</h2>

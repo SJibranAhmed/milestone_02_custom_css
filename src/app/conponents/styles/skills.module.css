@@ -38,8 +38,14 @@
   }
   
   @media (min-width: 768px) {
+    .container {
+      margin: auto;
+    }
     .heading {
       font-size: 3rem;
+    }
+    .main{
+     padding: 10px;
     }
   }
   

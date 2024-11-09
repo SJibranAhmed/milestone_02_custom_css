@@ -69,4 +69,12 @@
   .submitBtn:hover {
     background-color: #357ab7;
   }
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+   .contactGrid {
+    padding: 20px;
+      grid-template-columns: 1fr;
+    }
+  }
   
