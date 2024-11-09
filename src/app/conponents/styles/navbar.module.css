@@ -1,0 +1,39 @@
+.container {
+    padding: 16px 60px;
+    background: #000;
+    border-bottom-width: 2px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+  
+  .navItem {
+    gap: 2.5rem;
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .navItem {
+      display: flex;
+    }
+    .icons {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navItem {
+      gap: 4rem;
+    }
+  }
+  
